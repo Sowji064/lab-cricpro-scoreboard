@@ -1,16 +1,69 @@
-/* Type your code here */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
 
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
 
-/* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+body {
+  background-image: url(./images/background-image1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 2000px;
+  text-shadow: 2px black;
+}
+
+h3 {
+  font-size: 25px;
+  color: grey;
+}
+
+.id1 {
+  color: white;
+}
+
+.id2 {
+  color: rgb(182, 180, 180);
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 15px;
+  margin-left: 1350px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  background-color: white;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  border-right: none;
+  margin-bottom: 5px;
+}
+th {
+  border: 0px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  border-right: none;
+  margin-bottom: 5px;
 }
